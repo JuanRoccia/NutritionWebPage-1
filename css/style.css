@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --base-color: #00fff0;
+    --dark-color: #00b1a9;
+    --light-color: #b0fff9;
+    --text-color: #000;
+    --text-reverse: #fff;
+    --text-on-black: #00fff0;
+    --text-on-white: #00b1a9;
+    --text-on-image: #fff;
+}
+
+body {
+  margin-top: -15px;
+}
+
+/* <!-- Links (sit on top) --> */
+#header {
+  transition: top 0.3s;
+  position: sticky;
+/*   top: 15px !important; */
+}
+
+#header-img{
+  margin-top: 10px;
+/*   width: 100px; */
+  width: 130px;
+  float: left;
+}
+
+.nav-link1 {
+  background-color: #616161;
+  float:left;
+  text-align: right;
+}
+
+.nav-link1 ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.nav-link1 ul li {
+  display: inline-block;
+}
+
+.nav-link1 ul li a {
+  color: #fff;
+  font-size: 14px;
+}
+
+div.nav-link1.w3-block {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+/* <!-- Image Header --> */
+#flexbox {
+  display: flex;
+}
+
+.image {
+  filter: grayscale(20%);
+  object-fit: cover;  
+  object-position: center;
+}
+
+.gradient{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #616161 0%, rgba(0, 173, 181, 0.11) 70.76%, rgba(255, 255, 255, 0) 100%);
+}
+
+.w3-xlarge {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+#h1-image-header {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 70px!important;
+  line-height: 95%;
+  color: var(--text-on-image);
+}
+
+#content-image-header p {
+  color: var(--text-on-image);
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.w3-display-middle {
+  left: 29% !important;
+}
+
+#button1.w3-button {
+  background-color: #4CAF50!important;
+}
+
+#button1.w3-button:hover {
+  color: #b0fff9 !important;
+  background-color: #009688!important;
+}
+
+/* <!-- Contact Container --> */
+#contact {
+  background-color: #ccc8; 
+}
+
+/* <!-- Grid Who We Are --> */
+.card {
+  overflow: hidden;
+}
+
+/* Rotate */
+.hover06 img {
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover06 img:hover {
+	-webkit-transform: rotate(15deg) scale(1.4);
+	transform: rotate(15deg) scale(1.4);
+}
+
+/* WhatsApp Button */
+#whatsapp {
+  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Sofia Sans', sans-serif; */
+  font-weight: 600;
+  /* width: 45px; */
+  /* height: 45px; */
+  /* background: #00ADB5; */
+  /* text-decoration: none; */
+  /* text-align: center !important; */
+  /* line-height: 45px; */
+  font-size: 15px;
+  color: #103928;
+  background: #fff;
+  border-radius: 8px;
+  position: fixed;
+  bottom: 30px;
+  right: 15px;
+  z-index: 9;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+  
+  /* margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  
+  display: block;
+  display: flex;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px; */
+}
+
+/* i.fa.fa-whatsapp::before {
+  position: absolute;
+  left: 7.66%;
+  right: 80.5%;
+  right: 85%;
+  top: 24.42%;
+  bottom: 22.5%;
+} */
+
+/* a#whatsapp.w3-button {
+  position: absolute;
+  left: 25.56%;
+  right: 8.01%;
+  top: 39.52%;
+  bottom: 30.08%;
+} */
+
+
+/* <!-- Responsive Design --> */
+@media only screen and (max-width: 1080px) {
+  #h1-image-header {
+    font-size: 64px !important;
+  }
+
+  #button1 {
+    font-size: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .w3-display-middle {
+    left: 50% !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #h1-image-header {
+    font-size: 60px !important;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  #h1-image-header {
+    font-size: 55px !important;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  #h1-image-header {
+    font-size: 50px !important;
+  }
+}
+
+@media only screen and (max-width: 293px) {
+  #h1-image-header {
+    font-size: 45px !important;
+  }
+}
