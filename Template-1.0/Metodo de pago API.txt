@@ -1,0 +1,31 @@
+COMO AGREGAR UN METODO DE PAGO:
+https://www.youtube.com/watch?v=WXsD0ZgxjRw&ab_channel=freeCodeCamp.org
+https://www.probytes.net/blog/how-to-add-payment-method-on-website/
+https://www.mercadopago.com.ar/developers/es
+https://www.mercadopago.com.ar/developers/es/reference
+https://www.mercadopago.com.mx/developers/es/docs/magento-two/landing
+https://www.youtube.com/watch?v=mbjzH6EdlhI&list=PL9gBvug4xQI5IpI1Ang-VHOHoXX4wPREx&index=2&ab_channel=MetalheroDev
+
+Integrar MercadoPago con link:
+https://www.mercadopago.com.ar/developers/es/docs/payment-link/intro-button
+Integrar MercadoPag con wallet:
+https://www.mercadopago.com.ar/developers/es/docs/wallet-connect/landing
+Integrar MercadoPag con CheckOutPro:
+https://www.mercadopago.com.ar/developers/es/docs/checkout-pro/landing
+Intgrar Mercadopago con Brick:
+https://www.mercadopago.com.ar/developers/es/docs/checkout-bricks/landing
+
+https://www.youtube.com/watch?v=mbjzH6EdlhI&list=PL9gBvug4xQI5IpI1Ang-VHOHoXX4wPREx&index=3&ab_channel=MetalheroDev
+https://www.mercadopago.com.ar/developers/es/docs/checkout-pro/integrate-checkout-pro#editor_12
+
+Repo de GitHub:
+https://www.youtube.com/watch?v=r_onp9oh5t0&list=PL9gBvug4xQI5IpI1Ang-VHOHoXX4wPREx&index=7&ab_channel=NahuelSantillan
+https://github.com/nawesan12/mercadopago-reference
+
+Repos de Mercadopago GitHub:
+https://github.com/mercadopago/sdk-python
+https://github.com/mercadopago/checkout-payment-sample
+https://github.com/mercadopago/card-payment-sample
+https://github.com/mercadopago/card-payment-bricks-sample
+
+https://github.com/mercadopago/sdk-js
